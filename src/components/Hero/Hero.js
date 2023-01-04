@@ -16,7 +16,7 @@ const Hero = (props) => (
         "Diffculties are come to show us how capable we are"
           Vikas Pathak
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={props.handleClick}><a href='https://www.linkedin.com/school/newtonschool/videos/native/urn:li:ugcPost:7008432068162437120/' style={{color:"white"}}>Learn More</a></Button>
       </LeftSection>
     </Section>
   </>

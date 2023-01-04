@@ -1,10 +1,10 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-
+import Button from '../../styles/GlobalComponents/Button';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <FooterWrapper>
       <LinkList>
@@ -19,6 +19,7 @@ const Footer = () => {
           </LinkItem>
         </LinkColumn>
       </LinkList>
+      <Button><a href='https://my.newtonschool.co/user/Vikas_Pathak/' style={{color:"white"}}>Resume</a></Button>
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>Turn your imagination into reality...</Slogan>
