@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import Button from '../../styles/GlobalComponents/Button';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = (props) => {
+  const [resume, setResume] = useState("")
+  const handleResume=()=>{
+    setResume("https://drive.google.com/file/d/1eXRhk5kFlaAfn4q7zdmCaUa3mCNcEY2-/view?usp=share_link")
+    console.log("Resume")
+  }
   return (
     <FooterWrapper>
       <LinkList>
@@ -19,7 +24,7 @@ const Footer = (props) => {
           </LinkItem>
         </LinkColumn>
       </LinkList>
-      <Button><a href='https://my.newtonschool.co/user/Vikas_Pathak/' style={{color:"white"}}>Resume</a></Button>
+      <a href={resume} style={{color:"white"}}><Button onClick={handleResume}>Resume</Button></a>
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>Turn your imagination into reality...</Slogan>

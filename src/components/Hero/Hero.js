@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+const Hero = (props) => {
+  const [learnMore, setLearMore] = useState("")
+  const handleLearnmore=()=>{
+    setLearMore("https://www.linkedin.com/posts/newtonschool_newtonschool-humansofnewton-activity-7008432447218475008-eypX?utm_source=share&utm_medium=member_desktop")
+    console.log("LearnMore")
+  }
+  return(
+  
   <>
     <Section row nopadding>
       <LeftSection>
@@ -16,10 +23,10 @@ const Hero = (props) => (
         "Diffculties are come to show us how capable we are"
           Vikas Pathak
         </SectionText>
-        <Button onClick={props.handleClick}><a href='https://www.linkedin.com/school/newtonschool/videos/native/urn:li:ugcPost:7008432068162437120/' style={{color:"white"}}>Learn More</a></Button>
+        <a href={learnMore} style={{color:"white"}}><Button onClick={handleLearnmore}>Learn More</Button></a>
       </LeftSection>
     </Section>
   </>
 );
-
+}
 export default Hero;
