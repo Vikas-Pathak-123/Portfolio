@@ -22,7 +22,7 @@ export const projects = [
     description:`Rashtriya Swastha Sanghatana is a NGO which works by following a lifecycle approach, Rashtriya Swasthya Sangathan, among the top NGO in India, works intensively through focused welfare projects in following areas-blood donation camps, health checkup camps, AIDS awareness programme, assisted living facilities for old age homes, contributions in various Government Organizations`,
     image: '/images/3.png',
     tags: ['HTML', 'CSS', 'JavaScript'],
-    source: 'https://rshtriyaswasthyasangathanorg.netlify.app/',
+    source: 'https://www.rashtriyaswasthyasangathan.org/',
     visit: 'https://github.com/Vikas-Pathak-123/Rashtriya_Swasthya_Sangathan',
     id: 2,
   },
