@@ -7,7 +7,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = (props) => {
   const [resume, setResume] = useState("")
   const handleResume=()=>{
-    setResume("https://drive.google.com/file/d/1eXRhk5kFlaAfn4q7zdmCaUa3mCNcEY2-/view?usp=share_link")
+    setResume("https://drive.google.com/file/d/1j5Cn-P-KoLZVhtBuevc2WfefvZKV2Z9b/view?usp=share_link")
     console.log("Resume")
   }
   return (
