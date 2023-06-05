@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
   }
   /* Hide the default scrollbar */
 *::-webkit-scrollbar {
-  width: 0.2em;
+  width: 0;
 }
 
 *::-webkit-scrollbar-track {
