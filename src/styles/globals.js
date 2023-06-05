@@ -9,6 +9,14 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+  /* Hide the default scrollbar */
+*::-webkit-scrollbar {
+  width: 0.2em;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
