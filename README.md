@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+~~~
+this is my potfolio website which i developed 2 years back now I want to update in morden style
+use 
+1. glasmorphisim  effect
+2. hover animation neon effect multicolor
+3. add animation like cursor hover effect which is used in Antigravity landing page
+~~~
